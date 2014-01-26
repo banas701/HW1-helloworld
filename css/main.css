@@ -21,6 +21,49 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background: #232323;
+    
+}
+
+
+h1 {
+	font-family: 'Londrina Shadow', cursive;
+	text-align: center;
+	color: #aaaaaa;
+	margin: 60px 0 0 0;
+	
+}
+
+h2 {
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	width: 100%;
+}
+
+h3 {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {font-size: 300%;}
+	h2 {font-size: 300%;}
+	h3 {font-size: 200%;}
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {font-size: 400%;}
+	h2 {font-size: 400%;}
+	h3 {font-size: 300%;}
+}
+
+@media only screen and (max-width: 1100px) {
+	h1 {font-size: 500%;}
+	h2 {font-size: 500%;}
+	h3 {font-size: 400%;}
 }
 
 a {
@@ -39,8 +82,17 @@ a:hover {
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
+#wrapper, img {
+	width: 100%;
+	position: relative;
+}
+
 img {
-    vertical-align: middle;
+    
+    width="100%";
+	position: relative;
+	margin: 40px 0 0 0;
+    border-radius: 12px;
 }
 
 /*
@@ -66,16 +118,11 @@ textarea {
    ========================================================================== */
 
 
-
-
-
-
-
-
-
-
-
-
+.center {
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+}
 
 
 
